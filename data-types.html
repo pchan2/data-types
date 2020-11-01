@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript Data Types</title>
+</head>
+
+<body>
+    <main>
+        <p>Basic JavaScript Data Types</p>
+
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>undefined</td>
+                <td>
+                    When data is undefined, a variable is declared without an assigned argument.<br>
+                    E.g. <code><span>let</span> x;</code>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Boolean</td>
+                <td>
+                    Boolean presents two values: <code>true</code> or <code>false</code>. Boolean values can also be
+                    written as <code>1</code> or <code>0</code> is useful in if
+                    statements or for loops. when a Boolean conditionals determines what sections of code are executed.
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Number</td>
+                <td>Number comes in three forms: integer (whole number), float (decimals) and NaN (<strong>N</strong>ot
+                    a <strong>N</strong>umber). The maximum value of a Number type is
+                    <code>Number.MAX_SAFE_INTEGER</code> which returns 9007199254740991 while the minimum value is
+                    <code>Number.MIN_SAFE_INTEGER</code> which returns -9007199254740991. This means anything beyond the
+                    maximum or minimum value are unreliable and can result in inaccurate results.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>String</td>
+                <td>String is textual data. Each character inside the string occupies a position known as the index
+                    number which starts with 0, followed by 1, 2 3 and so on. Two Strings can be joined up or
+                    concatenated using <code>+</code> or <code>>String.concat()</code>.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>BigInt</td>
+                <td>
+                    BigInt stands for Big Integer and therefore is not a decimal. It can be constructed in two ways: by
+                    adding an <code>n</code> to a number or passing a number in <code>BigInt()</code> It allows one to
+                    safely add, subtract, multiply and divide the maximum or minimum value.<br>
+                    E.g. <code>BigInt(Number.MAX_SAFE_INTEGER) + 2n</code> will return 9007199254740993n.
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Symbol</td>
+                <td>
+                    A Symbol is a unique value which is usually used for creating unique property keys in objects. To
+                    make a new Symbol, the syntax is <code>Symbol()</code> and a string can be passed in to identify
+                    what the Symbol is but this is optional and will not have an impact on the unqiue value because
+                    "under the hood" a unique number value is generated.<br>
+                    E.g. <code>const symb1 = Symbol();</code>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Object</td>
+                <td>The Object class stores keyed collections. Object properties can be created, retrieved, updated and deleted<br>
+                    E.g.
+                    <code>
+                        const car = {<br>
+                        &nbsp; &nbsp; &nbsp; wheels: "alloy"<br>
+                        &nbsp; &nbsp; &nbsp; gear: "auto"<br>
+                        &nbsp; &nbsp; &nbsp; colour: "white"<br>
+                        &nbsp; &nbsp; &nbsp; seats: 5<br>
+                        &nbsp; &nbsp; };
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Function</td>
+                <td>
+                    A Function when invoked will run an operation. It can contain conditionals by using the <code>IF</code> statement. It can be given a name or be anonymous. It can contain parameters which acts as placeholders for arguments to be passed in.
+                </td>
+            </tr>
+        </table>
+
+    </main>
+</body>
+
+</html>
