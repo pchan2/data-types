@@ -1,1 +1,3 @@
 https://github.com/pchan2/data-types
+
+https://pchan2.github.io/data-types/
