@@ -31,6 +31,7 @@ main {
     background: rgba(0, 0, 0, 0.93);
     border-radius: 25px;
     box-shadow: 0 0 10px teal;
+    min-width: 32rem;
 }
 
 code {
